@@ -1,0 +1,105 @@
+.footer-logo {
+  height: 50px;
+  width: 150px;
+}
+
+.footer-web {
+  background-color: #C4C4C4;
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+  /* margin-top: 2.5rem; */
+  padding-top: 6vw;
+  
+}
+
+.blackcard {
+  width: 100%;
+  background-color: #000;
+}
+
+
+.footer-web .antcard {
+  border: 2px solid #616161;
+}
+
+.footer-web h3 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  letter-spacing: 0.8px;
+  color: #000;
+}
+.footer-web h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  letter-spacing: 0.8px;
+  color: #000;
+}
+
+.footer-list li {
+  margin-top: 5px;
+  opacity: 0.9;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer-item ul {
+  color: #000 !important;
+}
+
+.footer-item ul li {
+  margin-bottom: 10px;
+}
+
+.footer-item ul li a {
+  color: black !important;
+}
+
+.ant-input-affix-wrapper {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.copyright {
+  background-color: #C4C4C4;
+  color: black;
+}
+
+.footer-web-row {
+  padding-bottom: 25px;
+}
+
+.social-links {
+  color: #000;
+}
+
+
+
+@media (max-width: 768px) {
+  h2 {
+    text-align: center;
+  }
+
+  .app-links{
+    width: 150px;
+    margin: 0px auto;
+  }
+
+  .ant-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    text-align: center;
+  }
+
+  
+}
+
+@media (min-width: 768px) {
+  .app-badges {
+    padding-left: 42px !important;
+  }
+}
