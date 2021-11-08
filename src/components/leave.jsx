@@ -29,7 +29,7 @@ export default function Leave() {
             <Row
                 className="w-full bg-fixed bg-cover bg-no-repeat bg-center relative"
                 style={{
-                    backgroundImage: `url(/leave.jpg)`,
+                    backgroundImage: `url(/assets/leave.jpg)`,
                     height: "40vh",
                     backgroundSize: "cover",
                     filter: "brightness(50%)",

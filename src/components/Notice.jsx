@@ -1,4 +1,4 @@
-import "../components/notice.css";
+import "./notice.css";
 function Notice() {
     return (
         <div className="notice">

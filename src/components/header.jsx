@@ -22,6 +22,7 @@ const Header = () => {
 
             <img
               src="/logo2.png"
+              alt="/logo.png"
               className="hidden lg:block"
               style={{ width: "25%", backgroundColor: "#fff", borderRadius: "30%" }}
             />

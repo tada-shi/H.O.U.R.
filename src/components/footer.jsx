@@ -1,14 +1,14 @@
 import { MailOutlined, SendOutlined } from "@ant-design/icons";
-import { Image, Row, Col, Input, Typography, message, Form } from "antd";
+import { Image, Row, Col, Input,  Form } from "antd";
 import "../components/footer.css";
 import React from "react";
 import {Link} from "react-router-dom";
-const { Text } = Typography;
+// const { Text } = Typography;
 const Footer = () => {
   const [form] = Form.useForm();
   const onFinish = async (values) => {
     console.log("Received values of form: ", values);
-    let email = form.getFieldValue("email");
+    // let email = form.getFieldValue("email");
     // const result = await fetch(
     //   "https://hour.herokuapp.com/home/subscribe",
     //   {
@@ -72,9 +72,9 @@ const Footer = () => {
               <h2>Second Home</h2>
               <ul>
                 <li>
-                  <Link to="/about">
-                    <h2>H.O.U.R. (Hour of Ur Resident) is....<a>Readmore</a></h2>
-                  </Link>
+                  
+                    <h2>H.O.U.R. (Hour of Ur Resident) is....<Link to="/about">Readmore</Link></h2>
+                  
                 </li>
                 
                 

@@ -1,12 +1,14 @@
-import {  Col, Layout, Row } from "antd";
+import { Col, Layout, Row } from "antd";
 
 import img1 from "../assets/bibifatimahall.jpg"
+import img2 from "../assets/IndiraGandhiHall.jpg"
 const AboutContent = () => {
     const { Content } = Layout;
-   
+
     return (
         <>
             <Content className="about pb-20">
+                
                 <div className="text-center mt-5 px-10 md:px-32 text-4xl md:text-5xl font-semibold text-white ">
                     About us
                 </div>
@@ -22,19 +24,19 @@ const AboutContent = () => {
                         md={16}
                         lg={12}
                         xl={12}
-                        className="md:mr-8 text-gray-600 text-xl"
+                        className="md:mr-8 text-gray-600 text-3xl"
                     >
-                        <p className="text-base mt-6 md:pr-12 md:mt-8">
+                        <strong className="text-base mt-6 md:pr-12 md:mt-8">
                             H.O.U.R  (House Of Ur Resident) was born out of an idea of
                             three undergraduates during the covid pandemic , “ When
                             everything is getting digital ,why not hostel attendance ,events
                             and complaints ?”
-                        </p>
-                        <p className="text-base mt-6 md:pr-12 md:mt-8">
+                        </strong>
+                        <strong className="text-base mt-6 md:pr-12 md:mt-8">
 
                             Primarily, the idea is to provide simple yet  dynamic system
                             which could cater all the needs of Hostellers.
-                        </p>
+                        </strong>
                     </Col>
                     <Col
                         xs={12}
@@ -45,13 +47,13 @@ const AboutContent = () => {
                         justify="center"
                         className="items-center pt-10 ab-img"
                     >
-                        
-                            <div><img  src={img1} width={500} height={467} /></div>
-                         
+
+                        <div><img src={img1} alt ={img2} width={500} height={467} /></div>
+
                     </Col>
                 </Row>
 
-                
+
             </Content>
         </>
     );

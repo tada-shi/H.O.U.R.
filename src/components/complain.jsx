@@ -25,7 +25,7 @@ export default function Complain() {
       <Row
         className="w-full bg-fixed bg-cover bg-no-repeat bg-center relative"
         style={{
-          backgroundImage: `url(/complaint.jpg)`,
+          backgroundImage: `url(/assets/complaint.jpg)`,
           height: "40vh",
           backgroundSize: "cover",
           filter: "brightness(50%)",
